@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 function Navbar() {
   return (
     <div>
-        <nav>
+        <nav class="shadow-2xl ...">
             <ul>
                 <li>
                     <NavLink exact to="/home">Home</NavLink>
